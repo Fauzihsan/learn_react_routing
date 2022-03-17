@@ -1,5 +1,5 @@
-import "../assets/css/bootstrap.min.css";
-import styles from "../assets/css/StyleHome.module.css";
+import "../../assets/css/bootstrap.min.css";
+import styles from "../../assets/css/StyleHome.module.css";
 
 function Header() {
   return (

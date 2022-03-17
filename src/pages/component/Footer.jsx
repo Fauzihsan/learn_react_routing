@@ -1,5 +1,4 @@
-import styles from "../assets/css/StyleHome.module.css";
-import "../assets/css/bootstrap.min.css";
+import "../../assets/css/bootstrap.min.css";
 
 function Footer() {
   return (

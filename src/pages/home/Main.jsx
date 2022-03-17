@@ -1,7 +1,7 @@
-import styles from "../assets/css/StyleHome.module.css";
+import styles from "../../assets/css/StyleHome.module.css";
 
-import doneIcon from "../assets/img/done.png";
-import listIcon from "../assets/img/menu.png";
+import doneIcon from "../../assets/img/doneIcon.png";
+import listIcon from "../../assets/img/menuIcon.png";
 
 function Main({ listActivities }) {
   const listItems = listActivities.map((activity) => {

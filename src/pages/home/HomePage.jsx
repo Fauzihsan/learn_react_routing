@@ -2,9 +2,9 @@ import Header from "../component/Header";
 import Main from "./Main";
 import Footer from "../component/Footer";
 import { listActivities } from "../../data";
-import "../assets/css/bootstrap.min.css";
-import "../assets/css/StyleHome.module.css";
-import logoAlta from "../assets/img/logo-ALTA.png";
+import "../../assets/css/bootstrap.min.css";
+import "../../assets/css/StyleHome.module.css";
+import logoAlta from "../../assets/img/logo-ALTA.png";
 
 function HomePage() {
   return (
