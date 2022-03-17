@@ -1,0 +1,46 @@
+.navEdit {
+  color: white !important;
+}
+
+ul {
+  padding: 3px 3px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  list-style: none;
+}
+
+.boxList {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.52);
+  -webkit-box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.52);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.boxListDone {
+  border-radius: 10px;
+  color: white;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.52);
+  -webkit-box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.52);
+  background: #2a1f98;
+  background: linear-gradient(341deg, #2a1f98 0%, #4752da 80%);
+  background: -webkit-linear-gradient(341deg, #2a1f98 0%, #4752da 80%);
+  background: -moz-linear-gradient(341deg, #2a1f98 0%, #4752da 80%);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #4a4a4a;
+  bottom: 0px;
+  position: static;
+}
