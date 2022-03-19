@@ -5,10 +5,10 @@ function Header() {
   return (
     <>
       <nav
-        class={`navbar navbar-expand-lg navbar-dark bg-dark mb-3 ${styles.navbarEdit}`}
+        className={`navbar navbar-expand-lg navbar-dark bg-dark mb-3 ${styles.navbarEdit}`}
       >
-        <div class="container-fluid justify-content-center">
-          <a class={`${styles.navEdit} navbar-brand`} href="#">
+        <div className="container-fluid justify-content-center">
+          <a className={`${styles.navEdit} navbar-brand`} href="#">
             TO DO APP
           </a>
         </div>

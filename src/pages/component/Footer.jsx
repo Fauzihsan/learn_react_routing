@@ -3,8 +3,8 @@ import "../../assets/css/bootstrap.min.css";
 function Footer() {
   return (
     <>
-      <div class="text-center p-3 bg-dark ">
-        <p style={{ color: "white" }}>&copy; 2022 Copyright: Ihsan Fauzi</p>
+      <div className="text-center p-3 bg-dark ">
+        <p style={{ color: "white" }}>&copy; 2022 Copyright Ihsan Fauzi</p>
       </div>
     </>
   );

@@ -9,7 +9,7 @@ function Main({ listActivities }) {
       return (
         <>
           <div className={styles.boxListDone}>
-            <img src={doneIcon} alt="" srcset="" style={{ padding: "5px" }} />
+            <img srcSet={doneIcon} alt="" style={{ padding: "5px" }} />
             <div>
               <li>
                 <s>{activity.title}</s>
@@ -22,7 +22,7 @@ function Main({ listActivities }) {
       return (
         <>
           <div className={styles.boxList}>
-            <img src={listIcon} alt="" srcset="" style={{ padding: "5px" }} />
+            <img srcSet={listIcon} alt="" style={{ padding: "5px" }} />
             <div>
               <li>{activity.title}</li>
             </div>
@@ -31,11 +31,7 @@ function Main({ listActivities }) {
       );
     }
   });
-  return (
-    <>
-      <ul>{listItems}</ul>
-    </>
-  );
+  return <ul>{listItems}</ul>;
 }
 
 export default Main;

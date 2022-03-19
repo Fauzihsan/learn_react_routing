@@ -1,7 +1,7 @@
 const listActivities = [
   {
     id: 1,
-    title: "Mengerjakan Tugas Pemrograman Web",
+    title: "Mengerjakan Tugas Pemrograman",
     complete: true,
   },
   {
